@@ -1,0 +1,6 @@
+framework module Pods_PPFSwiftFMDBBaseManager {
+  umbrella header "Pods-PPFSwiftFMDBBaseManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

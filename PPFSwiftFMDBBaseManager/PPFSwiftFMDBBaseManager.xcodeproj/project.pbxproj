@@ -1,0 +1,708 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A620CCA24DCF53800AC4BDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A620CC924DCF53800AC4BDF /* AppDelegate.m */; };
+		2A620CCD24DCF53800AC4BDF /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A620CCC24DCF53800AC4BDF /* SceneDelegate.m */; };
+		2A620CD024DCF53800AC4BDF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A620CCF24DCF53800AC4BDF /* ViewController.m */; };
+		2A620CD324DCF53800AC4BDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A620CD124DCF53800AC4BDF /* Main.storyboard */; };
+		2A620CD524DCF53D00AC4BDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A620CD424DCF53D00AC4BDF /* Assets.xcassets */; };
+		2A620CD824DCF53D00AC4BDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A620CD624DCF53D00AC4BDF /* LaunchScreen.storyboard */; };
+		2A620CDB24DCF53D00AC4BDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A620CDA24DCF53D00AC4BDF /* main.m */; };
+		2A620CE524DCF53D00AC4BDF /* PPFSwiftFMDBBaseManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A620CE424DCF53D00AC4BDF /* PPFSwiftFMDBBaseManagerTests.m */; };
+		2A620CF024DCF53D00AC4BDF /* PPFSwiftFMDBBaseManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A620CEF24DCF53D00AC4BDF /* PPFSwiftFMDBBaseManagerUITests.m */; };
+		2A620D0324DCF7A700AC4BDF /* NSObject+PPFModelDic.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A620D0224DCF7A700AC4BDF /* NSObject+PPFModelDic.m */; };
+		2A620D0924DCF7FB00AC4BDF /* NSString+Json.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A620D0824DCF7FB00AC4BDF /* NSString+Json.m */; };
+		2A620D0B24DCF88A00AC4BDF /* PPFBaseDataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A620D0A24DCF88A00AC4BDF /* PPFBaseDataBaseManager.swift */; };
+		2A620D0E24DCF91400AC4BDF /* people.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A620D0C24DCF91400AC4BDF /* people.m */; };
+		2A620DAA24DCF9B400AC4BDF /* file.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2A620DA924DCF9B400AC4BDF /* file.txt */; };
+		F5324E15ACF955DBB98C5152 /* Pods_PPFSwiftFMDBBaseManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE6076E9A23A693A69160B8F /* Pods_PPFSwiftFMDBBaseManager.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A620CE124DCF53D00AC4BDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A620CBD24DCF53800AC4BDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A620CC424DCF53800AC4BDF;
+			remoteInfo = PPFSwiftFMDBBaseManager;
+		};
+		2A620CEC24DCF53D00AC4BDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A620CBD24DCF53800AC4BDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A620CC424DCF53800AC4BDF;
+			remoteInfo = PPFSwiftFMDBBaseManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		074292253AE1368E957E2CAF /* Pods-PPFSwiftFMDBBaseManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PPFSwiftFMDBBaseManager.debug.xcconfig"; path = "Target Support Files/Pods-PPFSwiftFMDBBaseManager/Pods-PPFSwiftFMDBBaseManager.debug.xcconfig"; sourceTree = "<group>"; };
+		2A620CC524DCF53800AC4BDF /* PPFSwiftFMDBBaseManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPFSwiftFMDBBaseManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A620CC824DCF53800AC4BDF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2A620CC924DCF53800AC4BDF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2A620CCB24DCF53800AC4BDF /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		2A620CCC24DCF53800AC4BDF /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		2A620CCE24DCF53800AC4BDF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2A620CCF24DCF53800AC4BDF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2A620CD224DCF53800AC4BDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A620CD424DCF53D00AC4BDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A620CD724DCF53D00AC4BDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A620CD924DCF53D00AC4BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A620CDA24DCF53D00AC4BDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A620CE024DCF53D00AC4BDF /* PPFSwiftFMDBBaseManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PPFSwiftFMDBBaseManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A620CE424DCF53D00AC4BDF /* PPFSwiftFMDBBaseManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPFSwiftFMDBBaseManagerTests.m; sourceTree = "<group>"; };
+		2A620CE624DCF53D00AC4BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A620CEB24DCF53D00AC4BDF /* PPFSwiftFMDBBaseManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PPFSwiftFMDBBaseManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A620CEF24DCF53D00AC4BDF /* PPFSwiftFMDBBaseManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPFSwiftFMDBBaseManagerUITests.m; sourceTree = "<group>"; };
+		2A620CF124DCF53D00AC4BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A620CFE24DCF59100AC4BDF /* PPFSwiftFMDBBaseManager-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PPFSwiftFMDBBaseManager-Bridging-Header.h"; sourceTree = "<group>"; };
+		2A620D0124DCF7A700AC4BDF /* NSObject+PPFModelDic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PPFModelDic.h"; sourceTree = "<group>"; };
+		2A620D0224DCF7A700AC4BDF /* NSObject+PPFModelDic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PPFModelDic.m"; sourceTree = "<group>"; };
+		2A620D0724DCF7FB00AC4BDF /* NSString+Json.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Json.h"; sourceTree = "<group>"; };
+		2A620D0824DCF7FB00AC4BDF /* NSString+Json.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Json.m"; sourceTree = "<group>"; };
+		2A620D0A24DCF88A00AC4BDF /* PPFBaseDataBaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PPFBaseDataBaseManager.swift; sourceTree = "<group>"; };
+		2A620D0C24DCF91400AC4BDF /* people.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = people.m; sourceTree = "<group>"; };
+		2A620D0D24DCF91400AC4BDF /* people.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = people.h; sourceTree = "<group>"; };
+		2A620DA924DCF9B400AC4BDF /* file.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = file.txt; path = "../../../Downloads/BGFMDB-master/BGFMDB/file.txt"; sourceTree = "<group>"; };
+		4B28C13ECBE5DEB131130C66 /* Pods-PPFSwiftFMDBBaseManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PPFSwiftFMDBBaseManager.release.xcconfig"; path = "Target Support Files/Pods-PPFSwiftFMDBBaseManager/Pods-PPFSwiftFMDBBaseManager.release.xcconfig"; sourceTree = "<group>"; };
+		FE6076E9A23A693A69160B8F /* Pods_PPFSwiftFMDBBaseManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PPFSwiftFMDBBaseManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A620CC224DCF53800AC4BDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5324E15ACF955DBB98C5152 /* Pods_PPFSwiftFMDBBaseManager.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A620CDD24DCF53D00AC4BDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A620CE824DCF53D00AC4BDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		067149623117D977CD30785F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				074292253AE1368E957E2CAF /* Pods-PPFSwiftFMDBBaseManager.debug.xcconfig */,
+				4B28C13ECBE5DEB131130C66 /* Pods-PPFSwiftFMDBBaseManager.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2A620CBC24DCF53800AC4BDF = {
+			isa = PBXGroup;
+			children = (
+				2A620CC724DCF53800AC4BDF /* PPFSwiftFMDBBaseManager */,
+				2A620CE324DCF53D00AC4BDF /* PPFSwiftFMDBBaseManagerTests */,
+				2A620CEE24DCF53D00AC4BDF /* PPFSwiftFMDBBaseManagerUITests */,
+				2A620CC624DCF53800AC4BDF /* Products */,
+				067149623117D977CD30785F /* Pods */,
+				533A767B628F258523D917B4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2A620CC624DCF53800AC4BDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A620CC524DCF53800AC4BDF /* PPFSwiftFMDBBaseManager.app */,
+				2A620CE024DCF53D00AC4BDF /* PPFSwiftFMDBBaseManagerTests.xctest */,
+				2A620CEB24DCF53D00AC4BDF /* PPFSwiftFMDBBaseManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A620CC724DCF53800AC4BDF /* PPFSwiftFMDBBaseManager */ = {
+			isa = PBXGroup;
+			children = (
+				2A620CFD24DCF56100AC4BDF /* PPFFMDBBaseManager */,
+				2A620CC824DCF53800AC4BDF /* AppDelegate.h */,
+				2A620CC924DCF53800AC4BDF /* AppDelegate.m */,
+				2A620CCB24DCF53800AC4BDF /* SceneDelegate.h */,
+				2A620CCC24DCF53800AC4BDF /* SceneDelegate.m */,
+				2A620CCE24DCF53800AC4BDF /* ViewController.h */,
+				2A620CCF24DCF53800AC4BDF /* ViewController.m */,
+				2A620D0D24DCF91400AC4BDF /* people.h */,
+				2A620D0C24DCF91400AC4BDF /* people.m */,
+				2A620CD124DCF53800AC4BDF /* Main.storyboard */,
+				2A620CD424DCF53D00AC4BDF /* Assets.xcassets */,
+				2A620CD624DCF53D00AC4BDF /* LaunchScreen.storyboard */,
+				2A620CD924DCF53D00AC4BDF /* Info.plist */,
+				2A620CDA24DCF53D00AC4BDF /* main.m */,
+				2A620DA924DCF9B400AC4BDF /* file.txt */,
+			);
+			path = PPFSwiftFMDBBaseManager;
+			sourceTree = "<group>";
+		};
+		2A620CE324DCF53D00AC4BDF /* PPFSwiftFMDBBaseManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A620CE424DCF53D00AC4BDF /* PPFSwiftFMDBBaseManagerTests.m */,
+				2A620CE624DCF53D00AC4BDF /* Info.plist */,
+			);
+			path = PPFSwiftFMDBBaseManagerTests;
+			sourceTree = "<group>";
+		};
+		2A620CEE24DCF53D00AC4BDF /* PPFSwiftFMDBBaseManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A620CEF24DCF53D00AC4BDF /* PPFSwiftFMDBBaseManagerUITests.m */,
+				2A620CF124DCF53D00AC4BDF /* Info.plist */,
+			);
+			path = PPFSwiftFMDBBaseManagerUITests;
+			sourceTree = "<group>";
+		};
+		2A620CFD24DCF56100AC4BDF /* PPFFMDBBaseManager */ = {
+			isa = PBXGroup;
+			children = (
+				2A620D0A24DCF88A00AC4BDF /* PPFBaseDataBaseManager.swift */,
+				2A620D0124DCF7A700AC4BDF /* NSObject+PPFModelDic.h */,
+				2A620D0224DCF7A700AC4BDF /* NSObject+PPFModelDic.m */,
+				2A620D0724DCF7FB00AC4BDF /* NSString+Json.h */,
+				2A620D0824DCF7FB00AC4BDF /* NSString+Json.m */,
+				2A620CFE24DCF59100AC4BDF /* PPFSwiftFMDBBaseManager-Bridging-Header.h */,
+			);
+			path = PPFFMDBBaseManager;
+			sourceTree = "<group>";
+		};
+		533A767B628F258523D917B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE6076E9A23A693A69160B8F /* Pods_PPFSwiftFMDBBaseManager.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A620CC424DCF53800AC4BDF /* PPFSwiftFMDBBaseManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A620CF424DCF53D00AC4BDF /* Build configuration list for PBXNativeTarget "PPFSwiftFMDBBaseManager" */;
+			buildPhases = (
+				7C9E83FBDAF4C5D498819E55 /* [CP] Check Pods Manifest.lock */,
+				2A620CC124DCF53800AC4BDF /* Sources */,
+				2A620CC224DCF53800AC4BDF /* Frameworks */,
+				2A620CC324DCF53800AC4BDF /* Resources */,
+				249A0B10B780BCEBEAEDF18B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PPFSwiftFMDBBaseManager;
+			productName = PPFSwiftFMDBBaseManager;
+			productReference = 2A620CC524DCF53800AC4BDF /* PPFSwiftFMDBBaseManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A620CDF24DCF53D00AC4BDF /* PPFSwiftFMDBBaseManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A620CF724DCF53D00AC4BDF /* Build configuration list for PBXNativeTarget "PPFSwiftFMDBBaseManagerTests" */;
+			buildPhases = (
+				2A620CDC24DCF53D00AC4BDF /* Sources */,
+				2A620CDD24DCF53D00AC4BDF /* Frameworks */,
+				2A620CDE24DCF53D00AC4BDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A620CE224DCF53D00AC4BDF /* PBXTargetDependency */,
+			);
+			name = PPFSwiftFMDBBaseManagerTests;
+			productName = PPFSwiftFMDBBaseManagerTests;
+			productReference = 2A620CE024DCF53D00AC4BDF /* PPFSwiftFMDBBaseManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A620CEA24DCF53D00AC4BDF /* PPFSwiftFMDBBaseManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A620CFA24DCF53D00AC4BDF /* Build configuration list for PBXNativeTarget "PPFSwiftFMDBBaseManagerUITests" */;
+			buildPhases = (
+				2A620CE724DCF53D00AC4BDF /* Sources */,
+				2A620CE824DCF53D00AC4BDF /* Frameworks */,
+				2A620CE924DCF53D00AC4BDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A620CED24DCF53D00AC4BDF /* PBXTargetDependency */,
+			);
+			name = PPFSwiftFMDBBaseManagerUITests;
+			productName = PPFSwiftFMDBBaseManagerUITests;
+			productReference = 2A620CEB24DCF53D00AC4BDF /* PPFSwiftFMDBBaseManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A620CBD24DCF53800AC4BDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = com.PPFSwiftFMDBBaseManager.ppf;
+				TargetAttributes = {
+					2A620CC424DCF53800AC4BDF = {
+						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1160;
+					};
+					2A620CDF24DCF53D00AC4BDF = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 2A620CC424DCF53800AC4BDF;
+					};
+					2A620CEA24DCF53D00AC4BDF = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 2A620CC424DCF53800AC4BDF;
+					};
+				};
+			};
+			buildConfigurationList = 2A620CC024DCF53800AC4BDF /* Build configuration list for PBXProject "PPFSwiftFMDBBaseManager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A620CBC24DCF53800AC4BDF;
+			productRefGroup = 2A620CC624DCF53800AC4BDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A620CC424DCF53800AC4BDF /* PPFSwiftFMDBBaseManager */,
+				2A620CDF24DCF53D00AC4BDF /* PPFSwiftFMDBBaseManagerTests */,
+				2A620CEA24DCF53D00AC4BDF /* PPFSwiftFMDBBaseManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A620CC324DCF53800AC4BDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A620CD824DCF53D00AC4BDF /* LaunchScreen.storyboard in Resources */,
+				2A620CD524DCF53D00AC4BDF /* Assets.xcassets in Resources */,
+				2A620DAA24DCF9B400AC4BDF /* file.txt in Resources */,
+				2A620CD324DCF53800AC4BDF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A620CDE24DCF53D00AC4BDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A620CE924DCF53D00AC4BDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		249A0B10B780BCEBEAEDF18B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PPFSwiftFMDBBaseManager/Pods-PPFSwiftFMDBBaseManager-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PPFSwiftFMDBBaseManager/Pods-PPFSwiftFMDBBaseManager-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PPFSwiftFMDBBaseManager/Pods-PPFSwiftFMDBBaseManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C9E83FBDAF4C5D498819E55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PPFSwiftFMDBBaseManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A620CC124DCF53800AC4BDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A620D0E24DCF91400AC4BDF /* people.m in Sources */,
+				2A620D0924DCF7FB00AC4BDF /* NSString+Json.m in Sources */,
+				2A620CD024DCF53800AC4BDF /* ViewController.m in Sources */,
+				2A620CCA24DCF53800AC4BDF /* AppDelegate.m in Sources */,
+				2A620D0B24DCF88A00AC4BDF /* PPFBaseDataBaseManager.swift in Sources */,
+				2A620CDB24DCF53D00AC4BDF /* main.m in Sources */,
+				2A620CCD24DCF53800AC4BDF /* SceneDelegate.m in Sources */,
+				2A620D0324DCF7A700AC4BDF /* NSObject+PPFModelDic.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A620CDC24DCF53D00AC4BDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A620CE524DCF53D00AC4BDF /* PPFSwiftFMDBBaseManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A620CE724DCF53D00AC4BDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A620CF024DCF53D00AC4BDF /* PPFSwiftFMDBBaseManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A620CE224DCF53D00AC4BDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A620CC424DCF53800AC4BDF /* PPFSwiftFMDBBaseManager */;
+			targetProxy = 2A620CE124DCF53D00AC4BDF /* PBXContainerItemProxy */;
+		};
+		2A620CED24DCF53D00AC4BDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A620CC424DCF53800AC4BDF /* PPFSwiftFMDBBaseManager */;
+			targetProxy = 2A620CEC24DCF53D00AC4BDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A620CD124DCF53800AC4BDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A620CD224DCF53800AC4BDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A620CD624DCF53D00AC4BDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A620CD724DCF53D00AC4BDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A620CF224DCF53D00AC4BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2A620CF324DCF53D00AC4BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A620CF524DCF53D00AC4BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 074292253AE1368E957E2CAF /* Pods-PPFSwiftFMDBBaseManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UP287476V8;
+				INFOPLIST_FILE = PPFSwiftFMDBBaseManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PPF.PPFSwiftFMDBBaseManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PPFSwiftFMDBBaseManager/PPFFMDBBaseManager/PPFSwiftFMDBBaseManager-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A620CF624DCF53D00AC4BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B28C13ECBE5DEB131130C66 /* Pods-PPFSwiftFMDBBaseManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UP287476V8;
+				INFOPLIST_FILE = PPFSwiftFMDBBaseManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PPF.PPFSwiftFMDBBaseManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PPFSwiftFMDBBaseManager/PPFFMDBBaseManager/PPFSwiftFMDBBaseManager-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2A620CF824DCF53D00AC4BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UP287476V8;
+				INFOPLIST_FILE = PPFSwiftFMDBBaseManagerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PPF.PPFSwiftFMDBBaseManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PPFSwiftFMDBBaseManager.app/PPFSwiftFMDBBaseManager";
+			};
+			name = Debug;
+		};
+		2A620CF924DCF53D00AC4BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UP287476V8;
+				INFOPLIST_FILE = PPFSwiftFMDBBaseManagerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PPF.PPFSwiftFMDBBaseManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PPFSwiftFMDBBaseManager.app/PPFSwiftFMDBBaseManager";
+			};
+			name = Release;
+		};
+		2A620CFB24DCF53D00AC4BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UP287476V8;
+				INFOPLIST_FILE = PPFSwiftFMDBBaseManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PPF.PPFSwiftFMDBBaseManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PPFSwiftFMDBBaseManager;
+			};
+			name = Debug;
+		};
+		2A620CFC24DCF53D00AC4BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UP287476V8;
+				INFOPLIST_FILE = PPFSwiftFMDBBaseManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PPF.PPFSwiftFMDBBaseManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PPFSwiftFMDBBaseManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A620CC024DCF53800AC4BDF /* Build configuration list for PBXProject "PPFSwiftFMDBBaseManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A620CF224DCF53D00AC4BDF /* Debug */,
+				2A620CF324DCF53D00AC4BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A620CF424DCF53D00AC4BDF /* Build configuration list for PBXNativeTarget "PPFSwiftFMDBBaseManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A620CF524DCF53D00AC4BDF /* Debug */,
+				2A620CF624DCF53D00AC4BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A620CF724DCF53D00AC4BDF /* Build configuration list for PBXNativeTarget "PPFSwiftFMDBBaseManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A620CF824DCF53D00AC4BDF /* Debug */,
+				2A620CF924DCF53D00AC4BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A620CFA24DCF53D00AC4BDF /* Build configuration list for PBXNativeTarget "PPFSwiftFMDBBaseManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A620CFB24DCF53D00AC4BDF /* Debug */,
+				2A620CFC24DCF53D00AC4BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A620CBD24DCF53800AC4BDF /* Project object */;
+}

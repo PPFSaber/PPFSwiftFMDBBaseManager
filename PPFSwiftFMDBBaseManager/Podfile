@@ -1,0 +1,13 @@
+source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+platform :ios, '10.0'
+
+target ‘PPFSwiftFMDBBaseManager’ do
+use_frameworks!
+
+# BaseFoundation 基础框架
+pod 'FMDB'
+
+#第三方 工具类
+pod 'YYModel'
+
+end
